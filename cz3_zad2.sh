@@ -4,6 +4,8 @@
 # skróty typu ~/ nie działają
 
 echo "Podaj ścieżkę do wyszukiwania:"
+read sciezka
+echo "Podaj szukaną frazę:"
 read fraza
 
 if [ -d $sciezka ]; then
